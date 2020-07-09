@@ -54,7 +54,7 @@ public class LoginInServlet extends HttpServlet {
 				String username = request.getParameter("username");
 				String password = request.getParameter("password");
 				//根据用户名 密码，访问数据库，进行验证
-				if ("zhengyuanchao".equals(username) && "zyc".equals(password)) {
+				if ("zyc".equals(username) && "zyc".equals(password)) {
 					response.getWriter().append("Login success");
 				} else {
 					response.getWriter().append("Login error");
